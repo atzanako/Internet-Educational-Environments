@@ -1,0 +1,20 @@
+li{
+    list-style: circle;
+}
+
+.item{
+    margin-top: -1%;
+}
+
+.paragraph{
+    margin-left: 100px;
+}
+
+.little-list{
+    margin-left: 120px;
+    margin-top: 0%;
+}
+
+.hom{
+    background-color: #13547a;
+}

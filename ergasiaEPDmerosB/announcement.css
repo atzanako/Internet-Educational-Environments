@@ -1,0 +1,162 @@
+h2{
+    margin-left: 3px;
+    color: black;
+}
+
+:root{
+    --mainColor: #8EBCB1;
+    --accentColor: #77C4D1;
+    --accentColorDark: #288994;
+    --blackColor: #222;
+    --whiteColor: #fff;
+}
+
+body{
+    font-family: "Century Gothic";
+    color: #222;
+    background-color: white;
+    overflow-y: scroll;
+}
+
+.pageGroup{
+    margin-left: 29.5%;
+    margin-bottom: 1%;
+    width: 60%;
+    display: inline-block;
+}
+
+#firstAnnouncement{
+    margin-top: 7%;
+}
+.news{
+    position: relative;
+    padding: 10px 6%;
+    border-top: 6px solid #8EBCB1;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.12), 0 1px 5px 0 rgba(0,0,0,.2);
+    background-color: #fff;
+}
+
+.newsDate{
+    display: inline-block;
+}
+
+.news__link::after{
+    content: "";
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.newsContent{
+    margin-top: -30px;
+    margin-left: 205px;
+}
+
+p{
+    font-size: medium;
+}
+
+a{
+    z-index: 9999;
+}
+
+@media (max-width: 640px){
+
+    html{
+        font-size: 93.75%;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 768px){
+
+    html{
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 960px){
+
+    html{
+        font-size: 106.25%;
+    }
+}
+
+@media (min-width: 961px){
+    .newsHeader{
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+
+    .newsDate{
+        margin-right: 40px;
+    }
+
+    .newsDay{
+        position: relative;
+        z-index: 0;
+        line-height: 1;
+        display: block;
+        margin-top: 30px;
+        color: var(--accentColorDark);
+    }
+
+}
+
+a{
+    text-decoration-color: #4eabb7;
+}
+
+.animated-underline{
+    --uiAnimatedUnderlineWidth: var(--animatedUnderlineWidth, 100%);
+    --uiAnimatedUnderlineHeight: var(--animatedUnderlineHeight, 2px);
+    --uiAnimatedUnderlineBgColor: var(--animatedUnderlineBgColor, currentColor);
+    --uiAnimatedUnderlinePositionX: var(--uiAnimatedUnderlinePositionX, left);
+    --uiAnimatedUnderlinePositionY: var(--uiAnimatedUnderlinePositionY, top);
+    --rLinkDisplay: inline; /* 1 */
+
+    background-image: linear-gradient(0, var(--uiAnimatedUnderlineBgColor) 0, var(--uiAnimatedUnderlineBgColor));
+    background-size: var(--uiAnimatedUnderlineWidth) var(--uiAnimatedUnderlineHeight);
+    background-position: var(--uiAnimatedUnderlinePositionX) var(--uiAnimatedUnderlinePositionY);
+    background-repeat: no-repeat;
+
+    -webkit-box-decoration-break: clone; /* 2 */
+    box-decoration-break: clone; /* 2 */
+
+    will-change: background-size;
+    transition-duration: 1s;
+    border-radius: 2px;
+
+}
+
+:root{
+    --animatedUnderlineHeight: 1rem;
+    --animatedUnderlineBgColor: var(--accentColor);
+}
+.animated-underline_type4{
+    --animatedUnderlineWidth: 100%;
+    --animatedUnderlineHeight: 0%;
+}
+
+.animated-underline_type4:hover{
+    --animatedUnderlineWidth: 100%;
+    --animatedUnderlineHeight: 100%;
+}
+@media (min-width: 800px){
+    .pageGroup{
+        top: 70px;
+        left: 350px;
+    }
+}
+@media (max-width: 700px) {
+    .pageGroup{
+        top: 120px;
+        left: 20%;
+    }
+
+}

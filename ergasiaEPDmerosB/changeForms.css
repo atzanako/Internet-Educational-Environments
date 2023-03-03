@@ -1,0 +1,187 @@
+body{
+    font-family: "Century Gothic";
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.form1{
+    margin-left: 70px;
+}
+
+.formAdd{
+    margin-top: -200px;
+    margin-left: 800px;
+}
+
+h2{
+    margin-left: 80px;
+}
+
+.buttonF, .buttonUser, .buttonFUp{
+    background-color: #4eabb7;
+    width: 150px;
+    border: none;
+    border-radius: 3px;
+}
+
+.buttonUser{
+    margin-left: 80px;
+}
+
+.buttonBack, .buttonBackUp{
+    background-color: #f2f2f7;
+    width: 80px;
+    border: none;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 150px;
+}
+
+.buttonBack:focus{
+    cursor: pointer;
+}
+input{
+    background: #f2f2f7;
+    border: none;
+    width: 455px;
+    border-radius: 3px;
+    overflow: auto;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+.usersInput{
+    margin-left: 80px;
+}
+
+input:focus{
+    outline: none;
+}
+
+table{
+    margin-left: 170px;
+    margin-bottom: 30px;
+    width: 70%;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+td{
+    border: 1px solid #C4DEE2;
+    height: 70px;
+}
+th{
+    background-color: #77C4D1;
+    border-collapse: collapse;
+    height: 30px;
+    text-align: left;
+}
+
+.linkUpd{
+    border-collapse: collapse;
+    border-left: 0;
+}
+
+
+.date{
+    margin-left: 30px;
+}
+
+.themeRow{
+    width: 140px;
+}
+
+/*----------------- UPDATEUSERS.PHP-------------*/
+
+label{
+    margin-left: 15px;
+}
+.password{
+    margin-left: 10px;
+}
+
+.txt{
+    margin-left: 115px;
+}
+
+.txtEmail{
+    margin-left: 130px;
+}
+
+.txtName{
+    margin-left: 117px;
+}
+
+.buttonBackUp{
+    margin-left: 15px;
+}
+
+.buttonFUp{
+    margin-left: 200px;
+}
+
+/*------------------ updateAnnouncement.php---------------------*/
+.txttheme{
+    margin-left: 60px;
+}
+.txtdate{
+    margin-left: 10px;
+}
+
+.txttext{
+    margin-left: 45px;
+}
+
+.descrRow{
+    width: 400px;
+}
+
+.theme{
+    margin-left: 70px;
+}
+
+.text{
+    margin-left: 111px;
+}
+
+.goals{
+    margin-left: 151px;
+}
+
+.file{
+    margin-left: 148px;
+}
+.textd{
+    margin-left: 10px;
+}
+.texta{
+    margin-left: 66px;
+}
+
+.ann{
+    font-family: "Century Gothic";
+    width: 120px;
+    height: 50px;
+    background-color: #C4DEE2;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    text-decoration: none;
+}
+
+.textCon{
+    margin-left: 155px;
+}
+.goalsRow{
+    width: 350px;
+}

@@ -1,0 +1,86 @@
+.triangleLeft {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -2%;
+    right: 0;
+    border-left: 635px solid transparent;
+    border-bottom: 700px solid #C4DEE2;
+}
+
+.triangleDown {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -2%;
+    right: -3%;
+    border-left: 250px solid transparent;
+    border-right: 315px solid transparent;
+    border-top: 315px solid #E1F4F8;
+    z-index: -1;
+}
+
+#btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #288994;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+#btn:hover {
+    background-color: rgba(40, 137, 148, 0.75); /* Add a dark-grey background on hover */
+}
+
+#arrow{
+    position: center;
+    height: 20px;
+    width: 20px;
+}
+
+@media only screen
+and (min-width: 1600px)
+and (max-width: 2000px)
+{
+    .triangleLeft {
+        position: absolute;
+        width: 0;
+        height: 0;
+        margin-top: -80px;
+        margin-left: 500px;
+        border-left: 700px solid transparent;
+        border-bottom: 700px solid #C4DEE2;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+    .triangleLeft {
+        position: absolute;
+        width: 0;
+        height: 0;
+        margin-top: -20px;
+        margin-left: 500px;
+        border-left: 700px solid transparent;
+        border-bottom: 700px solid #C4DEE2;
+    }
+
+    .triangleDown {
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: -2%;
+        right: -10%;
+        border-left: 250px solid transparent;
+        border-right: 315px solid transparent;
+        border-top: 315px solid #E1F4F8;
+        z-index: -1;
+    }
+}

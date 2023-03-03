@@ -1,0 +1,162 @@
+body{
+    font-family: "Century Gothic";
+}
+
+h1{
+    color: rgba(0, 0, 0, 0.68);
+}
+
+h2{
+    color: black;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+
+strong{
+    color: #4eabb7;
+}
+
+.titleOfPage{
+    background: #f2f2f7;
+    box-shadow: 10px 5px 7px rgba(128, 128, 128, 0.18);
+    z-index: 99999;
+    position:fixed;
+    width: 100%;
+    left: 0;
+    height: 80px;
+    min-height: 30px;
+    top:0;
+    text-align: center;
+}
+
+.menu{
+    background: #f2f2f7;
+    position: fixed;
+    top: 80px;
+    left:0;
+    width: 275px;
+    height: calc(100% - 150px);
+    padding: 50px 0;
+    z-index: 1;
+}
+
+.menuButtons{
+    cursor: pointer;
+    width: 100%;
+    left: 0;
+    border-radius: 20px;
+}
+
+.button{
+    background: #f2f2f7;
+    padding: 30px 10px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+}
+
+.button a{
+    font-family: "Century Gothic";
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+    display: block;
+
+}
+
+.menuButtons button:hover{
+    background-color: rgba(119, 196, 209, 0.11);
+}
+
+.pageContent{
+    position: fixed;
+    left:291px;
+    top:80px;
+    height: calc(100% - 102px);
+    width: calc(100% - 295px);
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+
+.textIndex {
+    position: fixed;
+    left:275px;
+    top:80px;
+    height: calc(100% - 102px);
+    width: calc(100% - 295px);
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+}
+
+#text{
+    color:black;
+    text-align:left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: -30px;
+}
+
+#cssImage{
+    width: 50%;
+    height: 30%;
+    border-radius: 3px;
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 5px 7px rgba(128, 128, 128, 0.18);
+}
+
+@media (min-width: 768px) {
+
+    .left-menu{
+        display: block;
+    }
+}
+
+@media (min-height: 500px) {
+
+    .left-menu{
+        display: block;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .left-menu{
+        display: block;
+    }
+
+    body{
+        margin-left: 320px;
+    }
+
+    .textIndex{
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+}
+
+@media (max-width: 1500px) {
+    .textIndex{
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+    }
+}
+
+@media (min-height: 900px){
+    #cssImage{
+        width: 60%;
+        height: 40%;
+        border-radius: 3px;
+        margin-top: 5%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 10px 5px 7px rgba(128, 128, 128, 0.18);
+    }
+}
+
